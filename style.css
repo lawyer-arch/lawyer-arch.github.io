@@ -38,11 +38,12 @@ h2 {
 main {
   width: 900px;
   margin: auto;
+  position: relative;
 }
 
 /* BEGIN (write your solution here) */
 section {
-  margin-top: 50px;
+  margin-top: 150px;
   margin-bottom: 50px;
   margin-left: 0;
   margin-right: 0;
@@ -60,4 +61,24 @@ section h2 {
 
 li {
   margin-bottom: 10px;
+}
+
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.intro-text {
+  flex-grow: 1;
+}
+
+.photo {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  margin-left: 20px;
 }
