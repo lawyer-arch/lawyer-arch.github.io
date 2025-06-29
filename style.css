@@ -73,6 +73,7 @@ li {
 
 .intro-text {
   flex-grow: 1;
+  order: 0;
 }
 
 .photo {
@@ -81,4 +82,5 @@ li {
   border-radius: 8px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
   margin-left: 20px;
+  order: 1;
 }
